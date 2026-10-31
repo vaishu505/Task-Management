@@ -2055,3 +2055,81 @@ body {
     box-sizing: border-box;
   }
 }
+/* ===== MOBILE HAMBURGER NAVIGATION ===== */
+
+@media screen and (max-width: 600px) {
+
+  .app {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* Three-line menu button */
+  .mobile-menu-button {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #6366f1;
+    color: white;
+    font-size: 27px;
+    cursor: pointer;
+    z-index: 200;
+  }
+
+  /* Hide sidebar until menu is opened */
+  .bar {
+    display: none !important;
+  }
+
+  /* Show sidebar when opened */
+  .bar.menu-open {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 240px;
+    min-width: 240px;
+    min-height: auto;
+    padding: 18px;
+    border-radius: 14px;
+    background: #252b45;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    z-index: 150;
+  }
+
+  .bar.menu-open nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .bar.menu-open .nav-item {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: 0;
+  }
+
+  .main {
+    width: 100%;
+    min-width: 0;
+    padding: 12px;
+    box-sizing: border-box;
+  }
+}
+
+/* Hide hamburger on desktop */
+@media screen and (min-width: 601px) {
+  .mobile-menu-button {
+    display: none !important;
+  }
+}
