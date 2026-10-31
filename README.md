@@ -1,3 +1,29 @@
-## TaskFlow – Task Management App
+# TaskFlow – Task Management App
 
-TaskFlow is a responsive task management web application built with React to help users organize their daily tasks and improve productivity. It allows users to add, edit, delete, and complete tasks, set priority levels and due dates, search and filter tasks, and sort them according to different criteria. The application also includes a dashboard with task statistics, a completion progress bar, an upcoming tasks section, a monthly calendar, and a dark mode feature. Task data is stored in the browser's local storage, allowing tasks and theme preferences to persist across page refreshes. This project was built to strengthen my understanding of React components, state management, hooks, event handling, CSS styling, and browser local storage.
+TaskFlow is a responsive task management web application built with React to help users organize their daily tasks and improve productivity.
+
+## Features
+ Add, edit and delete tasks
+ Mark tasks as completed
+ Set task priorities and due dates
+ Search, filter and sort tasks
+ Dashboard with task statistics
+ Monthly calendar
+ Dark mode
+ Local storage persistence
+
+## Technologies Used
+ React.js
+ JavaScript
+ HTML
+ CSS
+
+## Getting Started
+
+Install dependencies:
+
+npm install
+
+Start the application:
+
+npm start
