@@ -1,7 +1,7 @@
 {
-  "name": "task-management",
+  "name": "Task-Management",
   "version": "0.1.0",
-  "homepage": "https://YOUR-USERNAME.github.io/Task Management",
+  "homepage": "https://vaishu505.github.io/Task-Management/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.2",
